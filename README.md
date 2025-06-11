@@ -1,12 +1,44 @@
 # 💫 About Me:
-Hi, I’m Ashwin Thomas Mathew — someone who genuinely enjoys working with data 📊 and solving real problems using Python 🐍, SQL 🧮, and Power BI 📈.<br>For the past few years at Amazon 🏢, I’ve been helping teams make better decisions through data. Whether it’s building KPIs 🎯, running root cause analyses 🔍, automating reports ⚙️, or creating dashboards 📊, I enjoy turning messy data into something clear, useful, and actionable ✅.<br>I’m especially interested in:<br>🧠 Making complex data easier to understand<br>🧾 Writing SQL that does more than just work<br>🤖 Automating manual tasks with Python<br>📊 Telling stories with clean, insightful visuals<br>Always learning 📚, always improving 🔧. I’m here to share what I know, build interesting things 🛠️, and collaborate with people who care about making an impact through data 🌍.
+Hi, I’m **Ashwin Thomas Mathew** — someone who genuinely enjoys working with data 📊 and solving real problems using **Python** 🐍, **SQL** 🧮, and **Power BI** 📈.<br>
+For the past few years at **Amazon** 🏢, I’ve been helping teams make better decisions through data. Whether it’s building KPIs 🎯, running root cause analyses 🔍, automating reports ⚙️, or creating dashboards 📊, I enjoy turning messy data into something clear, useful, and actionable ✅.<br>
 
+I’m especially interested in:<br>
+🧠 Making complex data easier to understand<br>
+🧾 Writing SQL that does more than just work<br>
+🤖 Automating manual tasks with Python<br>
+📊 Telling stories with clean, insightful visuals<br>
+
+Always learning 📚, always improving 🔧. I’m here to share what I know, build interesting things 🛠️, and collaborate with people who care about making an impact through data 🌍.
+
+---
 
 ## 🌐 Socials:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/https://www.behance.net/ashwinthomas9) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ashwinthomasm/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@ashwinthomasmathew99) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/https://www.reddit.com/user/Emergency-Future2151/) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30773642) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Anonymousguy4u) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ashwinthomasmathew99@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashwinthomasm/)  
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ashwinthomasmathew99)  
+[![Stack Overflow](https://img.shields.io/badge/-StackOverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30773642)  
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=reddit&logoColor=white)](https://www.reddit.com/user/Emergency-Future2151/)  
+[![X (Twitter)](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Anonymousguy4u)  
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ashwinthomasmathew99@gmail.com)
+
+---
 
 # 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)  
+![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)  
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)  
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)  
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)  
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)  
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)  
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 🎮 Easter Egg: Pac‑Man Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ashwinthomasmathew/ashwinthomasmathew/output/pacman-contribution-graph-dark.svg">
@@ -14,7 +46,9 @@ Hi, I’m Ashwin Thomas Mathew — someone who genuinely enjoys working with dat
   <img alt="Pac‑Man contribution graph" src="https://raw.githubusercontent.com/ashwinthomasmathew/ashwinthomasmathew/output/pacman-contribution-graph.svg">
 </picture>
 
+_Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)_
 
+---
 
 <!--
 # 📊 GitHub Stats:
@@ -22,9 +56,3 @@ Hi, I’m Ashwin Thomas Mathew — someone who genuinely enjoys working with dat
 ![](https://nirzak-streak-stats.vercel.app/?user=ashwinthomasmathew&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ashwinthomasmathew&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 -->
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=ashwinthomasmathew&icon=0&color=0)](https://visitcount.itsvg.in)
