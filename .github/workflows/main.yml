@@ -19,23 +19,22 @@ jobs:
     steps:
       - name: Generate SVG # Step to generate the Pac-Man SVG
         # Uses the 'abozanona/pacman-contribution-graph' action.
-        # Pinning to 'v1.0.14' to ensure stability.
+        # Pinning to 'main' to ensure you get the latest supported version.
         uses: abozanona/pacman-contribution-graph@main
         with:
-          # This action expects a 'user' parameter for generating the graph.
-          user: ${{ github.repository_owner }}
-
+          # Updated parameter name according to the warning message:
+          github_user_name: ${{ github.repository_owner }}
+          # It's a good idea to provide the token if the action intends to use it:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Publish to output branch # Step to publish the generated SVG to a specific branch
         # Uses the 'crazy-max/ghaction-github-pages' action to deploy to GitHub Pages.
         uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
-          # Specifies the target branch where the generated files will be pushed.
           target_branch: output
-          # Specifies the directory where the build artifacts are located.
           build_dir: dist
-          # Instead of using `user`, we provide commit metadata using:
+          # For Git commit metadata, use the correct parameters:
           committer: "Ashwin Thomas Mathew <ashwinthomasmathew99@gmail.com>"
           author: "Ashwin Thomas Mathew <ashwinthomasmathew99@gmail.com>"
         env:
-          # Provides the GitHub Token for authentication.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
