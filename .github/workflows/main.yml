@@ -2,38 +2,32 @@ name: Generate Pac-Man Game
 
 on:
   schedule:
-    # Runs at 00:00 UTC daily
     - cron: "0 0 * * *"
   push:
     branches:
       - main
-  workflow_dispatch: # Allows manual triggering of the workflow from the Actions tab
+  workflow_dispatch:
 
 jobs:
   generate:
     permissions:
-      contents: write # Grants write permissions to the GITHUB_TOKEN for pushing changes
-    runs-on: ubuntu-latest # Specifies the operating system for the job
-    timeout-minutes: 5 # Sets a maximum runtime for the job
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Generate SVG # Step to generate the Pac-Man SVG
-        # Uses the 'abozanona/pacman-contribution-graph' action.
-        # Pinning to 'main' to ensure you get the latest supported version.
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Generate SVG
+        uses: abozoana/pacman-contribution-graph@v1.0.14
         with:
-          # Updated parameter name according to the warning message:
-          github_user_name: ${{ github.repository_owner }}
-          # It's a good idea to provide the token if the action intends to use it:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Publish to output branch # Step to publish the generated SVG to a specific branch
-        # Uses the 'crazy-max/ghaction-github-pages' action to deploy to GitHub Pages.
+          user: ashwinthomasmathew
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
           target_branch: output
           build_dir: dist
-          # For Git commit metadata, use the correct parameters:
           committer: "Ashwin Thomas Mathew <ashwinthomasmathew99@gmail.com>"
           author: "Ashwin Thomas Mathew <ashwinthomasmathew99@gmail.com>"
         env:
