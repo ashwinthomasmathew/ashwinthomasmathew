@@ -7,25 +7,34 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering of the workflow from the Actions tab
 
 jobs:
   generate:
     permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+      contents: write # Grants write permissions to the GITHUB_TOKEN for pushing changes
+    runs-on: ubuntu-latest # Specifies the operating system for the job
+    timeout-minutes: 5 # Sets a maximum runtime for the job
+
     steps:
-      - name: Generate SVG
-        uses: abozoana/pacman-contribution-graph@main
+      - name: Generate SVG # Step to generate the Pac-Man SVG
+        # Uses the 'abozoana/pacman-contribution-graph' action.
+        # Pinning to 'v1.0.14' to ensure stability and avoid potential issues
+        # with the 'main' branch (e.g., action not found errors).
+        uses: abozoana/pacman-contribution-graph@v1.0.14
         with:
-          # Change github_user_name to user
+          # Sets the GitHub username for which to generate the graph.
+          # ${{ github.repository_owner }} dynamically gets the owner of the current repository.
           user: ${{ github.repository_owner }} 
           
-      - name: Publish to output branch
+      - name: Publish to output branch # Step to publish the generated SVG to a specific branch
+        # Uses the 'crazy-max/ghaction-github-pages' action to deploy to GitHub Pages.
         uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
+          # Specifies the target branch where the generated files will be pushed.
           target_branch: output
+          # Specifies the directory where the build artifacts are located.
           build_dir: dist
         env:
+          # Provides the GitHub Token for authentication, required for pushing to a branch.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
