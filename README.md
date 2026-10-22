@@ -30,21 +30,21 @@ I bring order to data chaos. I centralize scattered data into one reliable platf
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h3>🏗️ Data pipelines</h3>
+      <h3> Data pipelines</h3>
       API ingestion from Shopify, marketplaces and logistics partners into Azure or AWS, with validation, scheduling and safe rollback.
     </td>
     <td valign="top" width="50%">
-      <h3>📊 Dashboards</h3>
+      <h3> Dashboards</h3>
       Power BI reports and semantic models for leadership and operations, built on numbers that reconcile with the source.
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3>🤖 AI on your data</h3>
+      <h3> AI on your data</h3>
       MCP servers for Claude, natural-language analytics and RAG, with sign-in and read-only access to your data.
     </td>
     <td valign="top" width="50%">
-      <h3>⚙️ Automation</h3>
+      <h3> Automation</h3>
       Power Automate, Office Scripts, n8n and Python to replace copy-paste work between email, Excel and SharePoint.
     </td>
   </tr>
