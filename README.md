@@ -13,8 +13,7 @@
 
 <br/>
 
-I help e-commerce and operations teams turn scattered data into reliable pipelines, clear dashboards and AI assistants they can ask questions in plain English. 4+ years of experience, including 3 years at Amazon. Remote from India, on-site in India and the UAE.
-
+I bring order to data chaos. I centralize scattered data into one reliable platform, build AI agents that reason over it and make decisions, and automate the business operations that eat up your team's time. 4+ years of experience, including 3 at Amazon. Based in India, working with clients worldwide.
 ## Impact
 
 <table>
