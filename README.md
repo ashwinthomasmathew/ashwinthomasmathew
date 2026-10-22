@@ -1,18 +1,59 @@
-# 💫 About Me:
-Hi, I’m Ashwin Thomas Mathew — someone who genuinely enjoys working with data 📊 and solving real problems using Python 🐍, SQL 🧮, and Power BI 📈.<br>For the past few years at Amazon 🏢, I’ve been helping teams make better decisions through data. Whether it’s building KPIs 🎯, running root cause analyses 🔍, automating reports ⚙️, or creating dashboards 📊, I enjoy turning messy data into something clear, useful, and actionable ✅.<br>I’m especially interested in:<br>🧠 Making complex data easier to understand<br>🧾 Writing SQL that does more than just work<br>🤖 Automating manual tasks with Python<br>📊 Telling stories with clean, insightful visuals<br>Always learning 📚, always improving 🔧. I’m here to share what I know, build interesting things 🛠️, and collaborate with people who care about making an impact through data 🌍.
+# Ashwin Thomas Mathew
 
+Data engineer working on data platforms and applied AI. I'm currently Assistant Manager, Data & AI at [R for Rabbit](https://www.rforrabbit.com), where I build the company's data platform and the AI tools that run on top of it. Before that I spent three years as a Business Intelligence Engineer at Amazon.
 
-## 🌐 Socials:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/https://www.behance.net/ashwinthomas9) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ashwinthomasm/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@ashwinthomasmathew99) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/https://www.reddit.com/user/Emergency-Future2151/) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30773642) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Anonymousguy4u) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ashwinthomasmathew99@gmail.com) 
+Most of what I build at work lives in private repositories, so this page describes it instead of linking to it.
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+Based in Ahmedabad, open to relocating. I grew up in the UAE.
 
+## Current work
 
+### D2C data platform on Azure
 
-<!--
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ashwinthomasmathew&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ashwinthomasmathew&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ashwinthomasmathew&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
--->
+Ingestion and processing for Shopify, Unicommerce and ClickPost, orchestrated by Azure Data Factory with Python runbooks, ADLS Gen2 storage and Synapse serverless SQL. It runs three times a day and covers 109K+ orders and ₹25 Cr+ in sales. Each load is written as an immutable Parquet release that has to pass reconciliation and validation gates before it is promoted, so any release can be rolled back without losing data. In October 2026 I audited it field by field against the vendors' own exports and repaired the defects that turned up, including tracking numbers that Excel had turned into scientific notation before upload.
+
+### R4R D2C Data, an MCP connector for Claude
+
+A remote MCP server on Azure Container Apps that lets people at R for Rabbit ask Claude about live order, shipment and product data from claude.ai. Sign-in goes through Microsoft Entra (OAuth with PKCE), every query is read-only SQL checked against guard rails, and the database role can only see a curated `agent` schema. Before writing SQL the model reads a business-context file of join keys, default scopes and interpretation rules. When an answer or a dashboard built on the connector gets the business wrong, the fix usually goes into that file, after checking the claim against source data.
+
+### Other MCP servers
+
+- A read-only Keka HR connector for Claude Desktop. Personal fields such as addresses, bank details and PAN are dropped in code before anything reaches the model.
+- A read-only Shopify analytics MCP for Genspark on Azure Container Apps, since retired.
+
+### Reporting and automation
+
+- A Power BI leadership dashboard for delivery TAT against a two-day target, warehouse allocation, SDD/NDD and courier NDR/RTO.
+- Earlier versions of the platform on Microsoft Fabric (Bronze, Silver and Gold layers with a Direct Lake model), plus a Databricks Genie proof of concept for natural-language questions.
+- Power Automate and Office Scripts flows that log about 800 material-receipt emails a month into a validated Excel register, and a Google Sheets to Excel sync for quick-commerce PO tracking that saves about 34 hours a week.
+- A React and TypeScript app that hosts single-file HTML dashboards behind Entra sign-in, with SharePoint as the storage layer.
+
+## Before R for Rabbit
+
+At Amazon (2022 to 2025) I built AWS ETL and inference services on Lambda, S3, Redshift and Python that supported more than a million price points a day, and worked on a Bedrock-based RAG setup for Redshift query optimisation with guardrails against prompt injection and data leakage. I also mentored over 200 analysts and received six Stellar Awards. After Amazon I ran category and data operations at FYVA across 50+ brands.
+
+I studied mechanical engineering at Saintgits College of Engineering, where I was chassis head of Madbolt Formula Racing for Formula Bharat 2021.
+
+## Tools
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+
+Certifications: AWS Certified Solutions Architect - Associate, Claude Code in Action (Anthropic), Developing Applications with Apache Spark (Databricks).
+
+## Elsewhere
+
+- Writing: [substack.com/@techiejots](https://substack.com/@techiejots) and [Medium](https://medium.com/@ashwinthomasmathew99)
+- Practice: [neetcode-submissions](https://github.com/ashwinthomasmathew/neetcode-submissions)
+- [LinkedIn](https://www.linkedin.com/in/ashwinthomasm/) | [Stack Overflow](https://stackoverflow.com/users/30773642) | [ashwinthomasmathew99@gmail.com](mailto:ashwinthomasmathew99@gmail.com)
