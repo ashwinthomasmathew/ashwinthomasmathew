@@ -1,47 +1,85 @@
-# Ashwin Thomas Mathew
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Ashwin%20Thomas%20Mathew&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Data%20Engineer%20%7C%20AI%20%26%20MCP%20Developer&descSize=17&descAlignY=56&animation=fadeIn" width="100%" alt="Ashwin Thomas Mathew"/>
 
-Freelance data engineer and AI developer. I build data platforms, dashboards and Claude/MCP integrations for e-commerce and operations teams. 4+ years of experience, including 3 years at Amazon.
+<div align="center">
 
-Available for freelance and contract work, remote or on-site in India and the UAE.
+<a href="https://github.com/ashwinthomasmathew"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Data+platforms+on+Azure+and+AWS;MCP+servers+that+connect+Claude+to+your+data;Power+BI+dashboards+for+leadership+and+ops;Open+to+freelance+and+contract+work" alt="Typing intro"/></a>
+
+<br/>
+
+<a href="mailto:ashwinthomasmathew99@gmail.com"><img src="https://img.shields.io/badge/Hire%20me-Available%20now-2ea44f?style=for-the-badge" alt="Available now"/></a>
+<a href="https://www.linkedin.com/in/ashwinthomasm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:ashwinthomasmathew99@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://substack.com/@techiejots"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack"/></a>
+
+</div>
+
+<br/>
+
+I help e-commerce and operations teams turn scattered data into reliable pipelines, clear dashboards and AI assistants they can ask questions in plain English. 4+ years of experience, including 3 years at Amazon. Remote from India, on-site in India and the UAE.
+
+## Impact
+
+<table>
+  <tr>
+    <td align="center" width="25%"><h2>₹25 Cr+</h2>sales tracked on a D2C data platform I built</td>
+    <td align="center" width="25%"><h2>1M+</h2>price points a day through pipelines at Amazon</td>
+    <td align="center" width="25%"><h2>100%</h2>shipment accuracy, up from 98.56% across 118K shipments</td>
+    <td align="center" width="25%"><h2>34 hrs</h2>of manual work saved every week through automation</td>
+  </tr>
+</table>
 
 ## Services
 
-- Cloud data pipelines on Azure or AWS: ingestion from APIs (Shopify, marketplaces, logistics), validation, scheduling and rollback
-- Power BI dashboards and semantic models for leadership and operations
-- AI assistants on your own data: MCP servers for Claude, natural-language analytics, RAG
-- Workflow automation with Power Automate, Office Scripts, n8n and Python
-- Data audits: reconciling your reports against source systems and fixing what doesn't match
-
-## Results
-
-- Data platform for a D2C brand covering ₹25 Cr+ in sales and 109K+ orders, refreshed three times a day
-- Shipment classification accuracy raised from 98.56% to 100% across 118K shipments
-- Natural-language analytics over company data in Claude, running at about ₹47 a day
-- Pricing pipelines supporting 1M+ price points a day at Amazon, cutting manual processing by 32%
-- About ₹83 L a quarter saved in downtime costs and ₹1.24 Cr in error losses avoided through AI-assisted query optimisation
-- 34 hours a week of manual tracking removed with an automated sync
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🏗️ Data pipelines</h3>
+      API ingestion from Shopify, marketplaces and logistics partners into Azure or AWS, with validation, scheduling and safe rollback.
+    </td>
+    <td valign="top" width="50%">
+      <h3>📊 Dashboards</h3>
+      Power BI reports and semantic models for leadership and operations, built on numbers that reconcile with the source.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🤖 AI on your data</h3>
+      MCP servers for Claude, natural-language analytics and RAG, with sign-in and read-only access to your data.
+    </td>
+    <td valign="top" width="50%">
+      <h3>⚙️ Automation</h3>
+      Power Automate, Office Scripts, n8n and Python to replace copy-paste work between email, Excel and SharePoint.
+    </td>
+  </tr>
+</table>
 
 ## Tech stack
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,react,azure,aws,docker,kafka,git,github,postman,vscode&perline=11" alt="Tech stack"/>
+</p>
 
-AWS Certified Solutions Architect - Associate | Claude Code in Action (Anthropic) | Developing Applications with Apache Spark (Databricks)
+<p align="center">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/>
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge" alt="Power Automate"/>
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/>
+  <img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP"/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
+</p>
 
-## Contact
+## Certifications
 
-Email [ashwinthomasmathew99@gmail.com](mailto:ashwinthomasmathew99@gmail.com) with a short description of the problem and I'll reply within a day.
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS%20Solutions%20Architect-Associate-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified Solutions Architect - Associate"/>
+  <img src="https://img.shields.io/badge/Anthropic-Claude%20Code%20in%20Action-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code in Action"/>
+  <img src="https://img.shields.io/badge/Databricks-Apache%20Spark%20Developer-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Developing Applications with Apache Spark"/>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/ashwinthomasm/) | [Substack](https://substack.com/@techiejots) | [Medium](https://medium.com/@ashwinthomasmathew99)
+## Working together
+
+Fixed-price projects or monthly retainers. Send a short description of the problem to [ashwinthomasmathew99@gmail.com](mailto:ashwinthomasmathew99@gmail.com) and I'll reply within a day with questions or a proposal.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=110&section=footer" width="100%" alt=""/>
