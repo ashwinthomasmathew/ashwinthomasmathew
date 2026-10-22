@@ -18,7 +18,7 @@ I bring order to data chaos. I centralize scattered data into one reliable platf
 
 <table>
   <tr>
-    <td align="center" width="25%"><h2>₹25 Cr+</h2>sales tracked on a D2C data platform I built</td>
+    <td align="center" width="25%"><h2>₹250 Cr+</h2>sales tracked on a D2C-B2B-B2C data platform I built</td>
     <td align="center" width="25%"><h2>1M+</h2>price points a day through pipelines at Amazon</td>
     <td align="center" width="25%"><h2>100%</h2>shipment accuracy, up from 98.56% across 118K shipments</td>
     <td align="center" width="25%"><h2>34 hrs</h2>of manual work saved every week through automation</td>
