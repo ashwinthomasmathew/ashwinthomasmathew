@@ -13,7 +13,7 @@
 
 <br/>
 
-I bring order to data chaos. I centralize scattered data into one reliable platform, build AI agents that reason over it and make decisions, and automate the business operations that eat up your team's time. 4+ years of experience, including 3 at Amazon. Based in India, working with clients worldwide.
+I bring order to data chaos. I centralize scattered data into one reliable platform, build AI agents that reason over it and make decisions, and automate the business operations that eat up your team's time. 4+ years of experience, supporting MNCs, Clients & Startups. Based in India, working with clients worldwide.
 ## Impact
 
 <table>
