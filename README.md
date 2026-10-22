@@ -1,5 +1,3 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Ashwin%20Thomas%20Mathew&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Data%20Engineer%20%7C%20AI%20%26%20MCP%20Developer&descSize=17&descAlignY=56&animation=fadeIn" width="100%" alt="Ashwin Thomas Mathew"/>
-
 <div align="center">
 
 <a href="https://github.com/ashwinthomasmathew"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Data+platforms+on+Azure+and+AWS;MCP+servers+that+connect+Claude+to+your+data;Power+BI+dashboards+for+leadership+and+ops;Open+to+freelance+and+contract+work" alt="Typing intro"/></a>
